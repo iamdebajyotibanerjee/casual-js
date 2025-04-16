@@ -18,6 +18,7 @@ h3 {
 }
 
 #capitalized-text {
+  width: 95%;
   margin: 20px 0;
   padding: 15px 30px;
   border: #333 solid 1px;
@@ -30,9 +31,13 @@ p {
 }
 
 #target-text {
+  width: 100%;
   border: #333 solid 1px;
   padding: 10px;
   border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
 }
 
 button {
