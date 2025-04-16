@@ -12,5 +12,5 @@ function capitalizeText() {
   const restLetters = text.slice(1);
   capitalizedText = firstLetter + restLetters;
   capitalizeOutput.innerText = capitalizedText;
-  return capitalizedText;
+  return console.log("Done");
 }
