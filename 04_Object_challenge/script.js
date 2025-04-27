@@ -48,3 +48,6 @@ console.log(`Third challenge check : firstBook = `);
 console.log(firstBook);
 
 // Turn the library object into a JSON string
+const libraryJSON = JSON.stringify(library);
+console.log(`Fourth challenge check : libraryJSON = `);
+console.log(libraryJSON);
