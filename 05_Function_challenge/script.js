@@ -29,3 +29,17 @@ const minMax = (arr) => {
 };
 
 console.log(minMax(numbers));
+
+// minMax using spread operator and Math object properties
+
+const numbers2 = [21, 36, 77, 878, 52, 95, 61, 327, 12, 45];
+function minMax2(arr) {
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
+  return {
+    minimum: min,
+    maximum: max,
+  };
+}
+const { minimum, maximum } = minMax2(numbers2);
+console.log(`Minimum: ${minimum}, Maximum: ${maximum}`);
